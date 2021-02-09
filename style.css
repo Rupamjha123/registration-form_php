@@ -1,0 +1,47 @@
+.container{
+
+    height:400px;
+    width: 600px;
+    background-color: darkblue;
+    margin-top:50px;
+    margin-left:10%;}
+
+    .container2{
+
+        height:400px;
+        width:400px;
+        background-color:aqua;
+        margin-left:200px;
+        border-radius:200px 10px 10px 200px ;
+        
+
+
+
+    }
+
+   
+
+    h1{
+
+        font-size:30px;
+       
+    }
+
+    form{
+        padding-top:10px;
+        text-align: center;
+        padding-left:60px;
+    }
+    input{
+        height:30px;
+        width:300px;
+    }
+
+   button{
+       color:deeppink;
+       background-color:greenyellow;
+       height:30px;
+       width:100px;
+   }
+
+   
