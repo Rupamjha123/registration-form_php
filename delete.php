@@ -12,7 +12,7 @@ $database=mysqli_select_db($con,$db);
 
 
 $nam = $_GET['na'];
-echo $nam;
+
 
 $deletequery = "DELETE FROM student_reg WHERE name='$nam'";
 
@@ -22,11 +22,21 @@ $query = mysqli_query($con,$deletequery);
 if($query)
 {
 
-    echo "yes";
+    ?>
+            <script>
+                alert("information deleted from database");
+    
+            </script>
+            <?php
 }
 
 else{
 
-    echo "no";
+    ?>
+    <script>
+        alert("not deleted");
+
+    </script>
+    <?php
 }
 ?>
