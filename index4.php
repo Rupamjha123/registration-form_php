@@ -81,7 +81,7 @@ while($res =mysqli_fetch_array($query)){
         <td><?php   echo $res['course']?></td>
         <td><?php   echo $res['college name']?></td>
         <td><?php   echo $res['contact no']?></td>
-        <td><a href="delete.php?na=<?php  echo $res['name'] ?>" ><i class="fa fa-trash"></i></td>
+        <td><a href="delete.php?na=<?php  echo $res['name'] ?>"><i class="fa fa-trash"></i></td>
         
     </tr>
     <?php
